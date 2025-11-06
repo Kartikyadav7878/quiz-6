@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Results</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; text-align: center; }
+        .score { font-size: 3em; color: darkgreen; margin-top: 50px; }
+    </style>
+</head>
+<body>
+    <h1>Quiz Completed!</h1>
+    <div class="score">
+        Your Score: <span th:text="${score}"></span> / <span th:text="${total}"></span>
+    </div>
+    <p>Thank you for participating!</p>
+</body>
+</html>
